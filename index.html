@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harsh Nagwan | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Harsh</div>
+
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO  -->
+    <section id="hero" class="section hero">
+        <div class="container hero-container">
+
+            <div class="hero-image">
+                <img src="assets\images\profile.jpeg" alt="Harsh Nagwan" class="profile-img">
+            </div>
+
+            <div class="hero-text">
+                <h1 class="fade-in">Hi, I'm Harsh Nagwan</h1>
+                <h2 class="fade-in">Data Analyst</h2>
+
+                <p class="fade-in">
+                    Turning raw data into meaningful insights.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container about-container">
+
+            <!-- LEFT: TEXT -->
+            <div class="about-text-block">
+                <h2 class="section-title">About Me</h2>
+
+                <p>
+                    I work with enterprise systems and business data, focusing on how information flows through
+                    applications and supports real-world operations.I am involved in ERP implementation working with
+                    production systems to resolve issues and ensure reliable functionality.
+                </p>
+
+                <p>
+                    My work combines backend data handling and system-level problem solving. Use of SQL for querying and
+                    optimizing relational databases and Python for data processing and analysis, helping derive insights
+                    from operational data.
+                </p>
+
+                <p>
+                    Alongside this, I build data-focused projects such as demand forecasting and pricing analysis,
+                    applying machine learning and visualization techniques. I am particularly interested in backend
+                    systems and data-driven applications where systems and business needs intersect.
+                </p>
+                <p>Beyond work, I enjoy singing, playing cricket and badminton, and exploring unique places and
+                    experiences.</p>
+            </div>
+
+            <!-- RIGHT: HIGHLIGHTS -->
+            <div class="about-highlights">
+                <div class="highlight-card">Database Query Optimization</div>
+                <div class="highlight-card">Operational Data Analysis</div>
+                <div class="highlight-card">ERP System Configuration</div>
+                <div class="highlight-card">Issue Diagnosis & Resolution</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="education section">
+        <div class="container">
+
+            <h2>Education</h2>
+
+            <div class="education-container">
+
+                <div class="education-card">
+                    <h3>Bachelor of Technology</h3>
+                    <p class="edu-college"> Haldia Institute Of Technology</p>
+                    <p class="edu-year">2020 – 2024</p>
+                    <!-- <p class="cgpa">CGPA: 8.33</p> -->
+                    <p class="edu-desc">Specialized in Information Technology</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="container">
+
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+
+                <!-- CARD 1 -->
+                <div class="skill-box">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="skill-box">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="skill-box">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Oracle</li>
+                        <li>MariaDB</li>
+                    </ul>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="skill-box">
+                    <h3>Web</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--  PROJECT SECTION-->
+    <section id="projects" class="section">
+        <div class="container">
+
+            <h2 class="section-title">Projects</h2>
+
+            <!-- Dynamic Cards -->
+            <div id="project-container" class="project-grid"></div>
+
+            <!-- View More Button -->
+            <div class="view-more-container">
+                <button id="view-more-btn">View More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--  EXPERIENCE-->
+    <section class="experience section">
+        <div class="container">
+
+            <h2>Experience</h2>
+
+            <div class="experience-timeline">
+
+                <div class="experience-item">
+                    <div class="exp-dot"></div>
+
+                    <div class="exp-content">
+                        <h3>Software Engineer – ERP Implementation & Support</h3>
+                        <p class="exp-company">Brainpower Technologies Pvt. Ltd.</p>
+                        <p class="exp-duration">Jan 2025 - Present</p>
+
+                        <ul>
+                            <li>Worked on implementing and supporting ERP systems for retail and food-chain businesses,
+                                ensuring that operational workflows aligned with system configurations.</li>
+
+                            <li>Handled database-level tasks involving MariaDB and Oracle, using SQL to extract data,
+                                investigate issues, and support reporting requirements.</li>
+
+                            <li>Translated business requirements into system configurations, particularly for modules
+                                like POS and ticketing, bridging the gap between technical systems and user needs.</li>
+
+                            <li>Diagnosed and resolved system and data-related issues reported by users, improving
+                                system reliability and day-to-day usability.</li>
+
+                            <li>Collaborated with development teams to identify root causes of issues and support
+                                deployment of fixes.</li>
+
+                            <li>Provided hands-on support and guidance to end users, helping them effectively use ERP
+                                systems in real business scenarios.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--  CONTACT -->
+    <section class="contact section">
+        <div class="container">
+
+            <h2>Contact</h2>
+
+            <div class="contact-container">
+
+                <!-- LEFT SIDE -->
+                <div class="contact-info">
+                    <h3>Let’s connect</h3>
+                    <p>If you’d like to discuss opportunities, collaborations, or have any queries, feel free to reach
+                        out.</p>
+
+                    <p><strong>Email:</strong> harshnagwan704.hitit2020@gmail.com</p>
+                    <p><strong>Phone:</strong> +91 6289370935</p>
+
+                    <div class="contact-links">
+                        <!-- <a href="https://linkedin.com/in/harsh-nagwan-88a91522a" target="_blank">LinkedIn</a> -->
+                        <!-- <a href="https://github.com/" target="_blank">GitHub</a> -->
+                    </div>
+                </div>
+
+                <!-- (FORM) -->
+                <!-- <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div> -->
+
+            </div>
+
+        </div>
+    </section>
+    <!--  MODAL -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+
+            <span class="close-btn">&times;</span>
+
+            <!-- <img id="modal-image" src=""> -->
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <div id="modal-gallery" class="modal-gallery"></div>
+            <div id="git-links" class="git-links" placeholder="Github:"></div>
+
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
