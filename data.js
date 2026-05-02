@@ -60,27 +60,27 @@ const projects = [
         gallery: []
     },
 
-    {
-        title: "Extra Project",
-        shortDesc: "Demo project",
-        description: "Used to demonstrate view more functionality.",
-        image: "assets/images/demandForcasting.jpg",
-        gallery: []
-    },
+    // {
+    //     title: "Extra Project",
+    //     shortDesc: "Demo project",
+    //     description: "Used to demonstrate view more functionality.",
+    //     image: "assets/images/demandForcasting.jpg",
+    //     gallery: []
+    // },
 
-    {
-        title: "Forecasting 2",
-        shortDesc: "Duplicate test",
-        description: "Testing View More",
-        image: "assets/images/demandForcasting.jpg",
-        gallery: []
-    },
+    // {
+    //     title: "Forecasting 2",
+    //     shortDesc: "Duplicate test",
+    //     description: "Testing View More",
+    //     image: "assets/images/demandForcasting.jpg",
+    //     gallery: []
+    // },
 
-    {
-        title: "Resale 2",
-        shortDesc: "Duplicate test",
-        description: "Testing View More",
-        image: "assets/images/demandForcasting.jpg",
-        gallery: []
-    }
+    // {
+    //     title: "Resale 2",
+    //     shortDesc: "Duplicate test",
+    //     description: "Testing View More",
+    //     image: "assets/images/demandForcasting.jpg",
+    //     gallery: []
+    // }
 ];
