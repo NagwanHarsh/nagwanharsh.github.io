@@ -41,6 +41,30 @@ const projects = [
     },
 
     {
+        title: "Rebel Foods PNL Dashboard",
+        shortDesc: "Operational and profitability dashboard analysis",
+        description: `
+        <p>
+        Developed an interactive PNL analytics dashboard for cloud kitchen operations using Streamlit, Python, and Plotly. The project focused on analysing operational performance, variance trends, revenue behaviour, and store level profitability insights.
+        </p>
+
+        <p><strong>Key Highlights:</strong></p>
+
+        <ul>
+            <li>Built 4 interactive analytical dashboards using Streamlit</li>
+            <li>Performed KPI analysis using Revenue, EBITDA %, GM %, and Variance metrics</li>
+            <li>Developed efficient vs risky store identification logic</li>
+            <li>Created dynamic filters and business insight visualisations using Plotly</li>
+            <li>Analysed operational variance impact on profitability and performance</li>
+        </ul>
+        `,
+        image: "assets/images/RebelFoodsPNLDashboard.png",
+        gallery: [],
+        github: "https://rebel-foods-pnl-dashboard.streamlit.app/",
+        github: "https://github.com/NagwanHarsh/rebel-foods-pnl-dashboard"
+    },
+
+    {
         title: "Attendance System",
         shortDesc: "Database-based attendance tracking",
         description: `
