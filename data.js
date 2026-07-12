@@ -19,6 +19,34 @@ const projects = [
         gallery: []
     },
 
+    
+    {
+        title: "Food Delivery Market & Menu Analytics Platform",
+        shortDesc: "API-Driven Restaurant & Menu Intelligence Analysis",
+        description: `
+        <p>
+        Developed a production-style analytics pipeline that transformed raw API responses
+         into structured business datasets, enabling restaurant intelligence, menu analytics, cuisine trend analysis, 
+         and market opportunity identification using Python, SQL, and data visualization techniques.
+        </p>
+        <p><strong>Tech Stack: </strong> Python, Pandas, Requests, SQL, MySQL, JSON, REST APIs, Matplotlib.</p>
+
+        <p><strong>Key Highlights:</strong></p>
+        <ul>
+            <li>Performed API investigation and reverse-engineered food delivery endpoints using Browser DevTools.</li>
+            <li>Extracted and processed restaurant and menu data from nested JSON structures.</li>
+            <li>Built robust data cleaning and transformation pipelines with Pandas.</li>
+            <li>Designed MySQL schemas and executed business-focused analytical queries.</li>
+            <li>Generated actionable insights on ratings, cuisine demand, menu composition, pricing patterns, and bestseller trends.</li>
+            <li>Documented the complete project lifecycle including methodology, challenges, debugging process, and future enhancements.</li>
+        </ul>
+        `,
+        image: "assets/images/foodDeliveryMarketAndMenuAnalyticsPlateform.png",
+        gallery: [],
+        github: "https://github.com/NagwanHarsh/Food-delivery-market-and-menu-analytics-platform"
+    },
+
+
     {
         title: "Automotive Resale Analysis",
         shortDesc: "Analyzed car resale trends",
